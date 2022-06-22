@@ -12,7 +12,7 @@ const Authentication = () => {
     useEffect(() => {
         async function getResponse() {
             const response = await getRedirectResult(auth);
-            console.log(response);
+            // console.log(response);
             if (response) {
                 const userDocRef = await createUserDocumentFromAuth(response.user);
             }
