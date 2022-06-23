@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rjovica/public_html/crwn-clothing
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R build/* $DEPLOYPATH
